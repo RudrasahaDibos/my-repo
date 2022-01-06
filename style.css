@@ -3,9 +3,9 @@ div h1{
  
 }
  .border{
-    border-left: 5px solid red;
-    border-radius: 1%;
-    font-size: 100%;
+    border-left: 8px solid red;
+    border-radius: 1% 2%;
+    font-size: 80%;
  }
  .fontstyle{
     font-style: normal;
@@ -15,9 +15,8 @@ h1{
     font-size: 60px;
     
 }
-.headcolor{
-    color:rgb(252, 179, 44);
-}
+
+
 section{
     display:flex;
 }
@@ -39,4 +38,97 @@ section{
     color:white;
     border-radius: 5px;
     font-size: large;
+}
+.center{
+    color:rgb(6, 1, 39);
+}
+
+.mission{
+    display: flex;
+}
+.illus{
+    width: 70%;
+}
+
+.background-bule{
+     background-color:rgb(210, 231, 248);
+     border-radius :20px;
+     margin:10px;
+     padding:2%;
+}
+.font-p{
+    text-align: justify;
+    font-size: 150%;
+    
+}
+.back-begon{
+    background-color: rgb(241, 223, 241);
+    border-radius: 20px;
+    margin:10px;
+    padding:2%;
+}
+.back-khoari{
+    background-color: rgb(245, 230, 202);
+    border-radius: 20px;
+    margin:10px;
+    padding:2%;
+}
+.develop{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    
+  background-position: 10% 80%;
+    
+  
+  
+}
+.codeimag{
+    width: 60%;
+    float: right;
+    text-align:center;
+
+}
+.read{
+    text-decoration: none;
+    background-image: linear-gradient(red,tomato);
+    padding: 10px 40px;
+    color:white;
+    border-radius: 5px;
+    font-size: large;
+}
+.know{
+    display: flex;
+    width: 50px;
+}
+.project{
+    max-width: 100%;
+
+    
+}
+
+.build{
+     display: flex;
+}
+.black{
+    background-color: black;
+}
+.hard{
+    text-align: center;
+    color: white;
+
+}
+.community{
+    height: 500px;
+    width: 500px;
+    margin-left:200px;
+    margin-top: 30px;
+}
+
+.app-image{
+    height: 700px;
+    width: 500px;
+    margin-left:200px;
+    margin-top: 30px;
 }
