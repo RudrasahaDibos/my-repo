@@ -1,19 +1,42 @@
-div{
+div h1{
     font-family: 'Shippori Mincho B1', serif;
+ 
 }
+ .border{
+    border-left: 5px solid red;
+    border-radius: 1%;
+    font-size: 100%;
+ }
+ .fontstyle{
+    font-style: normal;
+    font-size: 30px;
+ }
 h1{
     font-size: 60px;
+    
 }
 .headcolor{
-    color:orange;
+    color:rgb(252, 179, 44);
 }
 section{
     display:flex;
 }
 .halfwidth{
-    width:50%;
-    padding-left:2%;
+    width:80%;
+    padding-right:30%;
+    font-size: medium;
 }
 .halfwidth img{
-     width:80%;
+     width:100%;
+}
+.border{
+    border-right: orangered;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red,tomato);
+    padding: 10px 40px;
+    color:white;
+    border-radius: 5px;
+    font-size: large;
 }
