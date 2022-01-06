@@ -1,6 +1,19 @@
-body{
-    font-family: 'Poppins', sans-serif;
+div{
+    font-family: 'Shippori Mincho B1', serif;
 }
 h1{
+    font-size: 60px;
+}
+.headcolor{
     color:orange;
+}
+section{
+    display:flex;
+}
+.halfwidth{
+    width:50%;
+    padding-left:2%;
+}
+.halfwidth img{
+     width:80%;
 }
